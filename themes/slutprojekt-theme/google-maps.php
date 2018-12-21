@@ -1,3 +1,6 @@
+<?php
+  $key = include('key.php');
+ ?>
 <style type="text/css">
 
 .acf-map {
@@ -13,7 +16,7 @@ max-width: inherit !important;
 }
 
 </style>
-<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAfv_6bf7AU4Y0chhLxhwZSntxn40l2PDM"></script>
+<script src="https://maps.googleapis.com/maps/api/js?key=<?php $key; ?>"></script>
 <script type="text/javascript">
 (function($) {
 
